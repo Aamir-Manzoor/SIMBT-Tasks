@@ -6,9 +6,6 @@
 }
 
 :root{
-    --dark: #374151;
-	--darker: #1F2937;
-	--darkest: #111827;
 	--grey: #6B7280;
 	--pink: #EC4899;
 	--purple: #8B5CF6;
@@ -19,7 +16,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: var(--dark);
+    background: linear-gradient(to right, #000428, #004e92);
     color: #fff;
 }
 
@@ -47,7 +44,7 @@ input , button {
 
 #new-task-input{
     flex:1 1 0%;
-    background-color: var(--darker);
+    background: linear-gradient(to right, #000428, #004e92);
     padding: 1rem;
     border-radius: 1rem;
     margin-right: 1rem;
@@ -99,7 +96,7 @@ main{
 #tasks .task {
     display: flex;
     justify-content: space-between;
-    background-color: var(--darkest);
+    background: linear-gradient(to right, #000428, #004e92);
     padding: 1rem;
     border-radius: 1rem;
     margin-bottom: 1rem;
